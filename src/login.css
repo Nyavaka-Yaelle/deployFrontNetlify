@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  .all
+  {
+    background: linear-gradient(30deg,#302b41, #346f7a,rgb(40, 46, 160),#7d83ad,#20211f);
+    width: 100%;
+    height:100vh; 
+    position: relative;
+  }
+  .container
+  {
+        width: 30%;
+        height: 35vh;
+        background-color:  rgba(255, 255, 255, 0.3);
+        margin-left: 34%;
+        margin-top:15%;
+        position: absolute;
+        box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+        border-top-left-radius:2vh;
+        border-top-right-radius:2vh;
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+  }
+  .bouton
+  {
+    background-color: #302b41;
+    margin-top: 21%;
+    width: 100%;
+    height: 6vh;
+    border-bottom-left-radius:2vh;
+    border-bottom-right-radius:2vh;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+  
+  }
+  .formulaire
+  {
+    margin-left: 5%;
+    margin-top: 16%;
+  }
+  button.btn
+  {
+      width:86px;
+      height: 35px;
+      color: rgb(252, 249, 249);
+      border:none;
+      margin-top:1%;
+      margin-left:25vh;
+      background-color:transparent;
+  }
+  
+  
+  
